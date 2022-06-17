@@ -9,6 +9,7 @@ $(document).ready(function () {
     centerMode: true,
     adaptiveHeight: false,
     asNavFor: '.industries-btn',
+    variableWidth: true,
     responsive: [
       {
         breakpoint: 1900,

@@ -437,9 +437,14 @@ header .navbar-toggler:focus {
   background: transparent;
   border-radius: 38px;
   margin: 0 20px;
-  min-height: 600px !important;
+  /* min-height: 600px !important; */
   padding-top: 55px;
   position: relative;
+  
+  min-width: 440px;
+  max-width: 440px;
+  min-height: 530px;
+
 }
 .carousel .card .content {
   bottom: 0;
@@ -469,7 +474,8 @@ header .navbar-toggler:focus {
   font-family: Nunito Sans;
   font-weight: 600;
   color: #343434;
-  padding: 14px 20px;
+  /* padding: 14px 20px; */
+  padding: 14px 30px;
 }
 .carousel .card.slick-active.slick-current {
   background-color: #ffffff;
@@ -522,6 +528,7 @@ header .navbar-toggler:focus {
 .carousel .slick-next.slick-arrow {
   right: 42.5% !important;
   left: unset;
+  top: calc(100% + 59px);
 }
 .industries-btn .slick-list.draggable {
   max-width: calc(100vw - 60px) !important;
@@ -599,7 +606,8 @@ header .navbar-toggler:focus {
 
 .carousel .card.slick-active.slick-current {
   box-shadow: 0px 0px 20px #0000001c;
-  min-height: 660px !important;
+  /* min-height: 660px !important; */
+  min-height: 585px !important;
 }
 .carousel .card .icon img {
   max-height: 200px;
@@ -843,13 +851,15 @@ footer .icon-img-div {
     min-height: 600px !important;
   }
   .carousel .card {
-    min-height: 580px !important;
+    /* min-height: 580px !important; */
+    min-height: 570px !important;
   }
 }
 @media all and (max-width: 1300px) {
   /* .industries */
   .carousel .card.slick-active.slick-current {
-    min-height: 650px !important;
+    /* min-height: 650px !important; */
+    min-height: 615px !important;
   }
   .carousel .card {
     min-height: 600px !important;
@@ -867,7 +877,8 @@ footer .icon-img-div {
   .carousel .slick-next.slick-arrow {
     right: unset !important;
     left: calc(43% + 60px);
-    top: 108.9%;
+    /* top: 108.9%; */
+    top: calc(100% + 59px);
   }
   .carousel .card {
     min-width: 400px;
