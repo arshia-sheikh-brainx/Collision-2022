@@ -774,6 +774,10 @@ footer .icon-img-div {
   height: 40px;
   width: 40px;
 }
+footer .icon-setting {
+  height: 45px;
+  width: 45px;
+}
 @media all and (max-width: 1800px) {
   /* industries */
   .carousel .card.slick-active.slick-current {
@@ -995,6 +999,7 @@ footer .contact-div {
 }
 footer .icon-setting {
   width: 40px;
+  height: 40px;
 }
 footer .social-icon {
   justify-content: start;
