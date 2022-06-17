@@ -288,10 +288,11 @@ header .navbar-toggler:focus {
   background: #ffffff 0% 0% no-repeat padding-box;
   box-shadow: 0px 0px 20px #00000012;
   border-radius: 38px;
-  padding: 45px 15px 0;
+  padding: 45px 15px 30px;
   height: 100%;
   position: relative;
   border: 0;
+  transition: all 0.5s ease-out;
 }
 .services .card .title {
   text-align: center;
@@ -311,6 +312,7 @@ header .navbar-toggler:focus {
   color: #343434;
   max-height: 0;
   opacity: 0;
+  visibility: hidden;
 }
 .services .card svg .fill-color {
   color: #fff;
@@ -328,11 +330,13 @@ header .navbar-toggler:focus {
 .services .card:hover {
   box-shadow: 0px 0px 20px #03a8f533;
   border: 1px solid #03a8f5;
-  padding: 45px 15px 10px;
+  padding: 45px 15px 30px;
+  transition: all 0.5s ease-out;
 }
 .services .card:hover .text {
   max-height: max-content;
   opacity: 1;
+  visibility: visible;
 }
 .services .card:hover .title {
   line-height: 25px;
@@ -351,6 +355,7 @@ header .navbar-toggler:focus {
   width: auto;
   transform: translate(-25px, -50%) rotate(225deg);
 }
+
 /* teams section */
 .team {
   background-image: url(../images/brainx-team-blue-bg.png);
@@ -437,7 +442,6 @@ header .navbar-toggler:focus {
   background: transparent;
   border-radius: 38px;
   margin: 0 20px;
-  /* min-height: 600px !important; */
   padding-top: 55px;
   position: relative;
   
@@ -935,7 +939,7 @@ footer .icon-setting {
     flex-direction: row;
     margin: auto !important;
   }
-}
+} 
 @media all and (max-width:885px) and (min-width:767px) {
   .footer-li:last-of-type {
     margin: 0;
@@ -944,7 +948,7 @@ footer .icon-setting {
 footer .horizontal-bar {
   margin-top: 0;
 }
-.mynewRow {
+footer  .mynewRow {
   margin-top: -84px;
 }
   
@@ -1112,7 +1116,8 @@ footer .footer-li {
   .services .card .text {
     max-height: max-content;
     opacity: 1;
-    transition: transform 0.3s ease-in-out;
+    visibility: visible;
+
   }
   .services .card .title {
     line-height: 25px;
