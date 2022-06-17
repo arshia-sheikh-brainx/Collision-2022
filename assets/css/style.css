@@ -190,6 +190,7 @@ header .navbar-toggler:focus {
 }
 .technology .images-container img {
   padding-right: 10px;
+  width: 190px;
 }
 .technology .row{
   margin: 0;
