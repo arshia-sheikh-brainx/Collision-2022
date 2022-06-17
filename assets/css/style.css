@@ -322,6 +322,7 @@ header .navbar-toggler:focus {
   top: 0;
   left: 50%;
   transform: translate(-25px, -50%);
+  transition: all 0.25s ease-in-out;
 }
 .services .card .close-icon .fill-color {
   color: #04599c;
