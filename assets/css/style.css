@@ -50,6 +50,14 @@ header .nav-link:hover:before {
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
 }
+header .nav-link.active {
+  color: #02bcd4 !important;
+}
+header .nav-link.active {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
 header .nav-link:before {
   content: "";
   position: absolute;
