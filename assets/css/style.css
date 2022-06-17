@@ -183,7 +183,9 @@ header .navbar-toggler:focus {
 .technology .images-container img {
   padding-right: 10px;
 }
-
+.technology .row{
+  margin: 0;
+}
 /* about section  */
 
 .about-content-container {
