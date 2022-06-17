@@ -67,6 +67,9 @@ header .nav-link:before {
 header .navbar-brand.logo {
   width: 153px;
 }
+header .navbar-toggler:focus {
+   box-shadow: none; 
+}
 .estimate-botton {
   background: #03a8f5;
   padding: 10px 30px;
@@ -601,6 +604,9 @@ header .navbar-brand.logo {
 .carousel .slick-dots li {
   margin: 0;
 }
+.bottom-text-container{
+  background-color: #F1F1F1;
+}
 /* bootom text  */
 .bottom-text-container svg {
   width: 100%;
@@ -813,8 +819,31 @@ footer {
     margin: 10px;
   }
 }
+@media all and (max-width: 860px) and (min-width:769px) {
+  header .navbar .container-fluid {
+    flex-wrap: wrap;
+}
+header .est-desktop-btn{
+  display: none !important;
+}
+header .est-mobile-btn{
+  display: inline !important;
+}
+header .navbar-brand.logo {
+  text-align: left;
+  margin: 0 !important;
+  width: 50%;
+}
+header .navbar-nav {
+  flex-direction: row;
+  margin: auto !important;
+}
+}
 @media all and (max-width: 768px) {
   /* navbar  */
+  header .nav-link {
+    text-align: center;
+}
   header .navbar-brand.logo {
     padding: 0px !important;
     padding-left: 15px !important;
