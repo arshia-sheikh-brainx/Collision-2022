@@ -1006,6 +1006,7 @@ footer .footer-li {
   width: 100px !important;
   display: inline-block;
   margin-left: 0;
+  margin-top: 10px;
 }
 }
 @media all and (max-width: 576px) {
