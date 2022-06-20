@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="173.989" height="262.684" viewBox="0 0 173.989 262.684">
-  <g id="bg-logo" transform="translate(-100 -59)" style="mix-blend-mode: soft-light;isolation: isolate">
+  <g id="bg-logo" transform="translate(-100 -59)" opacity="0.5" style="isolation: isolate">
     <g id="Group_21" data-name="Group 21" transform="translate(142.599 136.849)">
-      <path id="Path_1" data-name="Path 1" d="M131.889,133.1,88.005,159.534l43.972,26.81,43.534-27.1Z" transform="translate(-44.143 -80.182)" fill="#e8e8e8" fill-rule="evenodd"/>
-      <path id="Path_2" data-name="Path 2" d="M43.407,79.237l-.047,53.494,45.787-28.405Z" transform="translate(-43.36 -79.237)" fill="#e8e8e8" fill-rule="evenodd"/>
+      <path id="Path_1" data-name="Path 1" d="M131.889,133.1,88.005,159.534l43.972,26.81,43.534-27.1Z" transform="translate(-44.143 -80.182)" fill="#fff" fill-rule="evenodd"/>
+      <path id="Path_2" data-name="Path 2" d="M43.407,79.237l-.047,53.494,45.787-28.405Z" transform="translate(-43.36 -79.237)" fill="#fff" fill-rule="evenodd"/>
     </g>
     <path id="Path_3" data-name="Path 3" d="M173.968,156.911c-7.775,4.249-86.309,54.215-86.791,54.521l-44.5-27.771V77.89L86.092,51.151v.008L129.552,77.4,173.9,49.889,86.092,0,0,52.81.03,209.532l87.151,53.146v0l86.808-53.494s-.458-39.776-.022-52.278" transform="translate(100 59.001)" fill="#fff" fill-rule="evenodd"/>
-    <path id="Path_4" data-name="Path 4" d="M174.658,50.779l-131.3,81.454.074,52.235,131.305-79.093Z" transform="translate(99.24 58.11)" fill="#f2f2f2" fill-rule="evenodd"/>
+    <path id="Path_4" data-name="Path 4" d="M174.658,50.779l-131.3,81.454.074,52.235,131.305-79.093Z" transform="translate(99.24 58.11)" fill="#fff" fill-rule="evenodd"/>
   </g>
 </svg>
