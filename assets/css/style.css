@@ -534,7 +534,7 @@ header .navbar-toggler:focus {
   color: #03a8f5;
   opacity: 1;
   border-radius: 50%;
-  line-height: 17px;
+  line-height: 16px;
   font-size: 12px;
 }
 .carousel .slick-arrow {
@@ -865,6 +865,9 @@ footer .icon-setting {
 }
 .carousel .card.slick-active.slick-current .icon img {
   max-height: 100%;
+}
+.industries-btn .slick-track {
+  padding: 50px 0 0;
 }
 @media all and (max-width: 1800px) {
   /* industries */
